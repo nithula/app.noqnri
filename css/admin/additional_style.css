@@ -1,0 +1,76 @@
+.image-preview-input {
+    position: relative;
+	overflow: hidden;
+	margin: 0px;    
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;    
+}
+.image-preview-input input[type=file] {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+.thumb{
+	border: 3px solid #86bd48;
+    margin: 0px 12px 0 0;
+    width: 25%;
+}
+ .thumb:hover{ 
+	border: 3px solid #687DDB; 
+    margin: 0px 12px 0 0; 
+    width: 25%; 
+ }
+#password_strength{font-size:12px;}
+#password_strength_confirm {
+    font-size: 12px;
+}
+#register-form .short{
+font-weight:bold;
+color:#FF0000;
+padding-right: 100px;
+background-color: #FF0000;
+font-size:4px;
+height:100%;
+}
+#register-form .weak{
+font-weight:bold;
+color:orange;
+padding-right: 100px;
+background-color: orange;
+font-size:4px;
+height:100%;
+}
+#register-form .good{
+font-weight:bold;
+color:#2D98F3;
+padding-right: 100px;
+background-color: #2D98F3;
+font-size:4px;
+height:100%;
+}
+#register-form .strong{
+font-weight:bold;
+color: limegreen;
+padding-right: 100px;
+background-color: limegreen;
+font-size:4px;
+height:100%;
+}
+#register-form .strongest{
+font-weight:bold;
+color: #00a65a;
+padding-right: 100px;
+background-color: #00a65a;
+font-size:4px;
+height:100%;
+}

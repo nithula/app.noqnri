@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^(baptize)([0-9]+)-u([0-9]+)-(.*)-\/(.*)$ ?baptize$2=$3&%{QUERY_STRING}[L]
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+RewriteRule ^(.*)\/(informity)\/([0-9]+)_([0-9]+).shtml$ ?informity$4=$3&%{QUERY_STRING}[L]
+</IfModule>
